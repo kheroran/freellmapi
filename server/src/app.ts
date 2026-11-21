@@ -406,7 +406,9 @@ export function createApp(config?: Config) {
         headers: { 'Cache-Control': 'no-cache' },
       });
     });
-  }
+  } 
 
   return app;
 }
+
+export default createApp();
